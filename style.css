@@ -116,6 +116,10 @@ body {
     background-color: #f0f0f0;
 }
 
+.bold-text {
+    font-weight: bold;
+}
+
 .gray-color {
     color: #7a7a7a;
 }
