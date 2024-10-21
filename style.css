@@ -1,0 +1,156 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header-block {
+    position: relative;
+}
+
+
+
+.main-block {
+    background-image: url(../image/IMG_1409.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.social-media {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    background-color: white;
+    padding: 8px 10px;
+}
+
+.title {
+    font-size: 72px;
+    line-height: 80px;
+    font-weight: bolder;
+}
+
+.column2 {
+    display: flex;
+    flex-direction: column;
+}
+.logo-img {
+    margin-left: auto;
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    right: 5px;
+    top: -15px;
+}
+
+.date-text {
+    font-size: 20px;
+}
+
+.btn-header {
+    width: 150px;
+    align-self: center;
+    background-color: #2D7985;
+    color: white;
+    border: 0;
+}
+
+.btn-header:active {
+    background-color: #3ba9ba;
+}
+
+.btn-header:hover {
+    background-color: #2D7985;
+    color: white;
+}
+
+@media (max-width: 550px) {
+    .title {
+        font-size: 36px;
+        line-height: 45px;
+    }
+    .date-text {
+        font-size: 12px;
+    }
+}
+
+.about-title {
+    font-weight: bold;
+}
+
+.about-column1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.column1-text {
+    margin-top: 15px;
+}
+
+.price {
+    font-weight: 600;
+}
+
+.ocean-color {
+    color: #127a8a;
+}
+
+.no-dots {
+    list-style: none;
+}
+
+@media (max-width: 768px) {
+    .about-column2 {
+        padding-left: 12px !important;
+    }
+}
+
+.partner-img {
+    height: 80px;
+}
+
+.partner-title {
+    font-weight: bold;
+}
+
+.schedule {
+    background-color: #f0f0f0;
+}
+
+.gray-color {
+    color: #7a7a7a;
+}
+
+.day {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.buy-ticket {
+    background-color: #f0f0f0;
+}
+
+footer {
+    background-color: black;
+}
+
+.footer-content {
+    color: #7a7a7a;
+}
+
+.tel {
+    text-decoration: none;
+    color: #7a7a7a;
+}
+
+
+
+
+@media (max-width: 992px) {
+    .buy-column {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+}
