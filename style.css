@@ -180,6 +180,11 @@ footer {
     height: auto;
 }
 
+.partner-img-vv {
+    width: 70%;
+    height: auto;
+}
+
 @media (max-width: 575px) {
     .partner-img-raund {
         width: 30%;
@@ -202,6 +207,11 @@ footer {
     }
 
     .partner-img-ix {
+        width: 30%;
+        height: auto;
+    }
+
+    .partner-img-vv {
         width: 30%;
         height: auto;
     }
