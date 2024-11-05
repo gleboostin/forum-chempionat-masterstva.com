@@ -184,6 +184,10 @@ footer {
     width: 70%;
     height: auto;
 }
+.light{
+    width: 70%;
+    height: auto;
+}
 
 @media (max-width: 575px) {
     .partner-img-raund {
@@ -215,7 +219,7 @@ footer {
         width: 30%;
         height: auto;
     }
-     .partner-img-lightpower{
+     .light{
         width: 30%;
         height: auto;
     }
